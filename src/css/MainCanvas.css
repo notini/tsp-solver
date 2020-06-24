@@ -1,0 +1,33 @@
+#mainCanvas {
+  float: right;
+  width: 75%;
+  height: 100%;
+  position: absolute;
+  margin-left: 24.25%;
+}
+
+#graph {
+  height: 75%;
+  width: 100%;
+}
+
+#results {
+  width: 100%;
+  height: 25%;
+  overflow-x: auto;
+  border-radius: 5px;
+  background-image: linear-gradient(#f0f2f0, #000c40);
+}
+
+.list-group {
+  width: 100%;
+}
+
+.list-group-item {
+  width: 100%;
+  padding: 0;
+}
+
+.list-group-item {
+  line-height: 1.15;
+}

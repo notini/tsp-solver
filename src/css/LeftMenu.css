@@ -1,0 +1,23 @@
+.leftContainer {
+  float: left;
+  line-height: 1.15;
+  width: 24.25%;
+  height: 100%;
+  position: absolute;
+  background-image: linear-gradient(#f0f2f0, #000c40);
+  font-weight: bold;
+  overflow-x: auto;
+}
+
+#generate {
+  text-align: center;
+  margin-left: 2px;
+}
+
+#content {
+  border-radius: 10px;
+  height: auto;
+  overflow: auto;
+  padding-right: 0px;
+  margin-right: 0px;
+}

@@ -1,0 +1,193 @@
+#contactInfo {
+  -moz-animation: contactInfo 1s 2.25s forwards;
+  -webkit-animation: contactInfo 1s 2.25s forwards;
+  -ms-animation: contactInfo 1s 2.25s forwards;
+  animation: contactInfo 1s 2.25s forwards;
+  position: sticky;
+  bottom: 0;
+  color: white;
+  text-align: center;
+  margin-right: 1%;    
+  margin-bottom: 1%;
+  margin-top: 70%;
+  opacity: 0;
+}
+
+#contactInfo nav li {
+  color: white;
+  display: inline-block;
+  top: 0;
+  width: 4.35em;
+  -moz-animation: icon 1s ease-in-out forwards;
+  -webkit-animation: icon 1s ease-in-out forwards;
+  -ms-animation: icon 1s ease-in-out forwards;
+  animation: icon 1s ease-in-out forwards;
+  margin-left: -30px;
+}
+#contactInfo nav li:nth-child(1) {
+  -moz-animation-delay: 2.5s;
+  -webkit-animation-delay: 2.5s;
+  -ms-animation-delay: 2.5s;
+  animation-delay: 2.5s;
+}
+
+#contactInfo nav li:nth-child(2) {
+  -moz-animation-delay: 3s;
+  -webkit-animation-delay: 3s;
+  -ms-animation-delay: 3s;
+  animation-delay: 3s;
+}
+
+#contactInfo nav li:nth-child(3) {
+  -moz-animation-delay: 3.5s;
+  -webkit-animation-delay: 3.5s;
+  -ms-animation-delay: 3.5s;
+  animation-delay: 3.5s;
+}
+
+#contactInfo nav li:nth-child(4) {
+  -moz-animation-delay: 4s;
+  -webkit-animation-delay: 4s;
+  -ms-animation-delay: 4s;
+  animation-delay: 4s;
+}
+
+#contactInfo nav a {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  border: 0;
+  display: inline-block;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  display: inline-block;
+  transition: all 0.2s ease-in-out;
+  border-radius: 100%;
+  text-align: center;
+  color: white;
+}
+
+#contactInfo nav a:before {
+  /*-moz-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;*/
+  border-radius: 100%;
+  display: block;
+  font-size: 1.75em;
+  height: 2.5em;
+  line-height: 2.5em;
+  position: relative;
+  text-align: center;
+  top: 0;
+  width: 2.5em;
+}
+
+#contactInfo nav a:hover {
+  font-size: 1.1em;
+}
+
+/*#contactInfo nav a:hover:before {
+  background-color: rgba(255, 255, 255, 0.175);
+  color: #fff;
+}
+
+#contactInfo nav a:active {
+  font-size: 0.95em;
+  background: none;
+}
+
+#contactInfo nav a:active:before {
+  background-color: rgba(255, 255, 255, 0.35);
+  color: #fff;
+}*/
+
+#contactInfo h1 p {
+  color: white;
+  font-family: "Raleway", sans-serif;
+  font-size: 62px;
+  font-weight: 800;
+  line-height: 72px;
+  margin: 0 0 0px;
+  text-align: center;
+}
+
+#contactInfo p {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 32px;
+}
+
+#contactInfo nav a span {
+  display: none;
+}
+
+@keyframes contactInfo {
+  0% {
+    -moz-transform: translate3d(0, 2em, 0);
+    -webkit-transform: translate3d(0, 2em, 0);
+    -ms-transform: translate3d(0, 2em, 0);
+    transform: translate3d(0, 2em, 0);
+    opacity: 0;
+  }
+
+  100% {
+    -moz-transform: translate3d(0, 0, 0);
+    -webkit-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
+}
+@-moz-keyframes contactInfo {
+  0% {
+    -moz-transform: translate3d(0, 2em, 0);
+    -webkit-transform: translate3d(0, 2em, 0);
+    -ms-transform: translate3d(0, 2em, 0);
+    transform: translate3d(0, 2em, 0);
+    opacity: 0;
+  }
+
+  100% {
+    -moz-transform: translate3d(0, 0, 0);
+    -webkit-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes contactInfo {
+  0% {
+    -moz-transform: translate3d(0, 2em, 0);
+    -webkit-transform: translate3d(0, 2em, 0);
+    -ms-transform: translate3d(0, 2em, 0);
+    transform: translate3d(0, 2em, 0);
+    opacity: 0;
+  }
+
+  100% {
+    -moz-transform: translate3d(0, 0, 0);
+    -webkit-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes contactInfo {
+  0% {
+    -moz-transform: translate3d(0, 2em, 0);
+    -webkit-transform: translate3d(0, 2em, 0);
+    -ms-transform: translate3d(0, 2em, 0);
+    transform: translate3d(0, 2em, 0);
+    opacity: 0;
+  }
+
+  100% {
+    -moz-transform: translate3d(0, 0, 0);
+    -webkit-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
+}
