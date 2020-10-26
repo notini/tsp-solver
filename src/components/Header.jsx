@@ -18,7 +18,7 @@ class Header extends Component {
           methods: Greedy Algorithm with improvement by Local Search, Tabu Search and Particle Swarm Optimization.
         </p>
         <p>
-          Distance between cities is given by the Euclidian Distance (in pixels)
+          Distance between cities is given by the Euclidean Distance (in pixels)
           between them.
         </p>
       </div>
